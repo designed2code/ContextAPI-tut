@@ -1,16 +1,10 @@
-import ComponentA from "./components/ComponentA";
-import MyCounter from "./components/MyCounter";
-import CounterContextProvider from "./contexts/CounterContext";
-
+import Users from "./components/Users";
 
 export default function App() {
   return (
-    <CounterContextProvider>
     <div className="App" style={{textAlign:'center'}}>
-      <h1>Context API</h1>
-      <MyCounter />
-      <ComponentA/>
+      <h1>Custom Hooks</h1>
+      <Users/>
     </div>
-    </CounterContextProvider>
   );
 }
